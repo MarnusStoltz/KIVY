@@ -46,7 +46,7 @@ class PongBall(Widget):
 
     def move(self):
         self.pos = Vector(*self.velocity) + self.pos
-
+#Github comment
 if __name__ == '__main__':
     PongApp().run()
 
